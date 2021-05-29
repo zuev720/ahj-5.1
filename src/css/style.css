@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.popover {
+  box-sizing: border-box;
+  vertical-align: center;
+  margin: 0;
+  text-transform: none;
+  display: inline-block;
+  font-weight: 400;
+  border: 1px solid transparent;
+  padding: .5rem 1rem;
+  font-size: 1.25rem;
+  border-radius: .3rem;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+  background-color: #c82333;
+}
+
+.popover-inform {
+  position: absolute;
+  text-align: left;
+  padding: 10px;
+  font-size: 1rem;
+  color: black;
+  border: 1px solid grey;
+  border-radius: 3px;
+}
+
+.popover-inform-text {
+  margin-top: 10px;
+}
+
+.arrow {
+  position: absolute;
+  width: 22px;
+  height: 12px;
+  background-color: white;
+  background-image: url("../img/next.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+}
